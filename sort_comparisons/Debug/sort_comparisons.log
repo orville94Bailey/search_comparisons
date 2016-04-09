@@ -1,16 +1,18 @@
-﻿Build started 4/4/2016 8:33:54 PM.
-     1>Project "c:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\sort_comparisons\sort_comparisons.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/7/2016 5:34:49 PM.
+     1>Project "C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\sort_comparisons\sort_comparisons.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\sort_comparisons.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt sort_comparisons.cpp
          sort_comparisons.cpp
-     1>c:\users\jeremy\documents\visual studio 2015\projects\sort_comparisons\sort_comparisons\sort_comparisons.cpp(23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jeremy\documents\visual studio 2015\projects\sort_comparisons\sort_comparisons\sort_comparisons.cpp(61): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jeremy\documents\visual studio 2015\projects\sort_comparisons\sort_comparisons\sort_comparisons.cpp(159): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\jeremy\documents\visual studio 2015\projects\sort_comparisons\sort_comparisons\sort_comparisons.cpp(161): warning C4804: '>': unsafe use of type 'bool' in operation
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.lib" /MACHINE:X86 Debug\heap.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.lib" /MACHINE:X86 Debug\heap.obj
          Debug\sort_comparisons.obj
          Debug\sort_holder.obj
          Debug\stdafx.obj
-         sort_comparisons.vcxproj -> c:\users\jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.exe
-     1>Done Building Project "c:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\sort_comparisons\sort_comparisons.vcxproj" (Build target(s)).
+         sort_comparisons.vcxproj -> C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\Debug\sort_comparisons.exe
+     1>Done Building Project "C:\Users\Jeremy\documents\visual studio 2015\Projects\sort_comparisons\sort_comparisons\sort_comparisons.vcxproj" (Build target(s)).
 
 Build succeeded.
 
